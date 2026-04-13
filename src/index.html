@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js" defer></script>
+    <title>REST Countries Api</title>
+</head>
+
+<body>
+    <br>
+    <h2>Where in the world?</h2>
+    <hr>
+    <div class="container mt-4">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <input id="inputSearchName" type="text" placeholder="Search for a country" aria-required="required"
+                    onblur="this.focus()" autofocus>
+                <button id="searchButton">Search</button>
+            </div>
+            <!-- Select Dropdown -->
+            <div class="col-md-6">
+                <select id="filterByRegion">
+                    <option value="">Filter by region</option>
+                    <option value="africa">Africa</option>
+                    <option value="america">America</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="oceania">Oceania</option>
+                </select><br><br><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countries Data Display (4-column grid) -->
+    <div id="countryContainer" class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- countries data will be displayed here -->
+    </div>
+
+</body>
+
+</html>
