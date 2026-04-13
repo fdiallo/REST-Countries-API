@@ -90,6 +90,12 @@ async function getCountryByRegion(countryRegion) {
     }
 }
 
+/**
+ * Display all the counties in a responsive manner in grid format of 4 colunms on large screens
+ * 2 columns on tablets and medium screens and 
+ * 1 column on phone
+ * @param {} countryResults 
+ */
 function displayCountries(countryResults) {
     countryContainer.innerHTML = ""
     countryResults.forEach(country => {
@@ -112,10 +118,22 @@ function displayCountries(countryResults) {
     });
 }
 
+/**
+ * Move to details page after clicking on a country card
+ * @param {*} flag 
+ * @param {*} name 
+ * @param {*} population 
+ * @param {*} region 
+ * @param {*} capital 
+ */
 function moveToDetails(flag, name, population, region, capital) {
     window.location.href = `details.html?flag=${flag}&name=${name}&population=${population}&region=${region}&capital=${capital}`;
 }
 
+/**
+ * Will call getAllCountriesApi() to make the api call and 
+ * display all countries everytime the screen is loaded
+ */
 window.onload = () => {
     getAllCountries()
 }

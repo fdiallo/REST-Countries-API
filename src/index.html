@@ -25,8 +25,8 @@
         <div class="row mb-3">
             <div class="col-md-6">
                 <input id="inputSearchName" type="text" placeholder="Search for a country" aria-required="required"
-                    onblur="this.focus()" autofocus>
-                <button id="searchButton">Search</button>
+                    onblur="this.focus()" autofocus required>
+                <button id="searchButton">Search</button><span class="error-message-search" id="searchError"></span>
             </div>
             <!-- Select Dropdown -->
             <div class="col-md-6">

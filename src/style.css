@@ -5,3 +5,12 @@ margin-right: 40px;
 
 .card { transition: transform 0.2s; }
 .card:hover { transform: scale(1.05); }
+
+
+.error-message-search {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 3px;
+    display: block;
+    min-height: 1em;
+}

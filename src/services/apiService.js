@@ -2,7 +2,7 @@ import { NetworkError } from "../utils/errorHandler.js";
 
 /**
  * Define a function called getAllCountriesApi that makes 
- * an api call using the fetch api
+ * an api call using the fetch api to retrieve all the countries
  * @returns Promise
  */
 export async function getAllCountriesApi() {
@@ -14,7 +14,6 @@ export async function getAllCountriesApi() {
             throw new NetworkError(`Network Error! Status: ${response.status}`)
         }
         const data = await response.json()
-        //clearconsole.log(data)
         return data
 
     } catch (error) {
@@ -24,6 +23,12 @@ export async function getAllCountriesApi() {
     }
 }
 
+/**
+ * Make an api call to retrieve to search by name
+ * and handle any error that occurs during the call
+ * @param {*} name 
+ * @returns 
+ */
 export async function getCountryByNameApi(name) {
     const url = `https://restcountries.com/v3.1/name/${name}?fields=name,capital,population,region,flags`
     try {
@@ -42,7 +47,12 @@ export async function getCountryByNameApi(name) {
     }
 }
 
-
+/**
+ * Make an api call to retrieve countries by region
+ * and handle any error that occurs during the call
+ * @param {*} region 
+ * @returns 
+ */
 export async function getCountryByRegionApi(region) {
     const url = `https://restcountries.com/v3.1/region/${region}?fields=name,capital,population,region,flags`
     try {
