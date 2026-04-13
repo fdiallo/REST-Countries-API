@@ -18,8 +18,8 @@ This solution of the challenge will allow users to:
 - [Screenshot](./src/screenshot.png)
 
 # Links:
-- [Solution URL:] (https://github.com/fdiallo/REST-Countries-API)
-- [Live Site URL:] (https://fdiallo.github.io/REST-Countries-API/src/index.html)
+- [Solution URL: ](https://github.com/fdiallo/REST-Countries-API)
+- [Live Site URL: ](https://fdiallo.github.io/REST-Countries-API/src/index.html)
 
 
 ## My process
