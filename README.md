@@ -1,6 +1,9 @@
 # Frontend Mentor - REST Countries API with color theme switcher solution
 
-# To access the site use this url: https://fdiallo.github.io/REST-Countries-API/src/index.html
+# To access the site use this url:
+(https://fdiallo.github.io/REST-Countries-API/src/index.html)
+# To access the codebase on Gituhub use this url:
+(https://github.com/fdiallo/REST-Countries-API)
 
 This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
 
