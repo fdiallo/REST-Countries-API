@@ -15,11 +15,12 @@ This solution of the challenge will allow users to:
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode *(optional)*
 
-![](./src/screenshot.png)
+- [Screenshot](./src/screenshot.png)
 
 # Links:
-- Solution URL: https://github.com/fdiallo/REST-Countries-API
-- Live Site URL: https://fdiallo.github.io/REST-Countries-API/src/index.html
+- [Solution URL:] (https://github.com/fdiallo/REST-Countries-API)
+- [Live Site URL:] (https://fdiallo.github.io/REST-Countries-API/src/index.html)
+
 
 ## My process
 
